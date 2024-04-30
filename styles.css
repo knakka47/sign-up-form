@@ -1,0 +1,43 @@
+body {
+    font-family: 'Josefin Slab', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.img {
+    display: flex;
+    width: 40%;
+    height: 94%;
+    margin: 1% 1% 1% 1%;
+    background: url(./media/unsplash-image.jpg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.img-description {
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color: white;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+label{
+    display: block;
+    margin-top: 1em;
+} */
